@@ -1,0 +1,151 @@
+*, * before, * after {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+  }
+  
+  html, body {
+    height: 100%;
+    line-height: 1;
+    font-size: 14px;
+    font-weight: 500;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  ul, li, ol {
+    list-style: none;
+  }
+  
+  img {
+    vertical-align: top;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-size: inherit;
+    font-weight: inherit;
+  }
+  
+/*-----------------------------------------------------*/
+
+.wrapper{
+  margin: 0 auto;
+  min-height: 896px;
+  max-width: 414px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+}
+
+body{
+    background-color: #CACBCD;
+    font-family: 'Sofia Sans Extra Condensed';
+}
+
+.img{
+  max-width: 350px;
+  margin: 15px 0;
+}
+
+.container{
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+
+.title{
+    font-size: 46px;
+    font-weight: 600;
+    margin: 0 0 25px 0;
+}
+
+.text{
+    font-size: 30px;
+    color: #323841;
+    line-height: 120%;
+}
+
+.start__text{
+  margin: 0 0 30px 0;
+}
+
+.button{
+    background-color: #F6F2EE;
+    border-radius: 6px;
+    color: #323841;
+    border: 1px solid #77726E;
+    text-decoration: none;
+    padding: 10px 30px;
+    font-size: 30px;
+    font-family: inherit;
+}
+/************************************************************/
+
+.page{
+  text-align: center;
+}
+
+.page__story{
+  height: 896px;
+}
+
+.registration__body{
+    margin: 20px auto;
+    padding: 25px;
+    background-color: #77726E;
+    border-radius: 24px;
+    max-width: 370px; 
+}
+
+.form__input-item{
+    font-family: inherit;
+    font-size: 24px;
+    width: 300px;
+    padding: 15px 10px 15px 25px;
+    margin: 0 0 40px 0;
+    color: #cacbcd;
+    border-radius: 10px;
+}
+
+/************************************************************/
+
+.wrapper__story{
+  flex-direction: column;
+}
+
+.container__story{
+  height: 896px;
+}
+
+.story__block{
+  margin: 40px 0 0 0;
+}
+
+.logo{
+  width: 30px;
+  margin: 6px 0 0 0;
+}
+
+h3{
+  color: rgb(65, 65, 99);
+  text-align: left;
+}
+
+.story__text{
+  font-size: 28px;
+  line-height: 100%;
+}
+
+.story__button{
+  display: inline-block;
+  margin: 10px 0 0 0;
+}
+
+.story__title{
+  margin: 0 0 5px 0;
+}
+
